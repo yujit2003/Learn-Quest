@@ -1,21 +1,21 @@
 <!-- <div align="center"> <img align="center" alt="dschackfest" src="https://user-images.githubusercontent.com/42115530/94295926-a5741880-ff7f-11ea-890b-39ad20ac0f21.png" height='150' width='350'></div> -->
 
-<div>
+<!-- <div>
     <img align=top src="https://miro.medium.com/max/1400/1*c4YgRXYQayOVWxV37ourrw.png" height="100" width="50%"/>
     <img align=top src="https://res.cloudinary.com/de4by5q8o/image/upload/v1633197681/hackfest2021_ocjn5n.svg" height="100" width="49%"/>
 <div>
-<br>
+<br> -->
 
 
 
-## QuickLearn
+## LearnQuest
 
-[![Issues](https://img.shields.io/github/issues/DSC-JSS-NOIDA/QuickLearn)](https://github.com/DSC-JSS-NOIDA/QuickLearn/issues)
-[![PRs](https://img.shields.io/github/issues-pr/DSC-JSS-NOIDA/QuickLearn)](https://github.com/DSC-JSS-NOIDA/QuickLearn/pulls)
+[![Issues](https://img.shields.io/github/issues/DSC-JSS-NOIDA/Learn-Quest)](https://github.com/DSC-JSS-NOIDA/Learn-Quest/issues)
+[![PRs](https://img.shields.io/github/issues-pr/DSC-JSS-NOIDA/Learn-Quest)](https://github.com/DSC-JSS-NOIDA/Learn-Quest/pulls)
 [![Maintenance](https://img.shields.io/maintenance/yes/2021?color=green&logo=github)](https://github.com/DSC-JSS-NOIDA/)
-[![Forks](https://img.shields.io/github/forks/DSC-JSS-NOIDA/QuickLearn?style=social)](https://github.com/DSC-JSS-NOIDA/QuickLearn) [![Stars](https://img.shields.io/github/stars/DSC-JSS-NOIDA/QuickLearn?style=social)](https://github.com/DSC-JSS-NOIDA/QuickLearn) [![Watchers](https://img.shields.io/github/watchers/DSC-JSS-NOIDA/QuickLearn?style=social)](https://github.com/DSC-JSS-NOIDA/QuickLearn) [![Twitter Follow](https://img.shields.io/twitter/follow/DSCJSSATEN?style=social)](https://twitter.com/DSCJSSATEN)
+[![Forks](https://img.shields.io/github/forks/DSC-JSS-NOIDA/Learn-Quest?style=social)](https://github.com/DSC-JSS-NOIDA/Learn-Quest) [![Stars](https://img.shields.io/github/stars/DSC-JSS-NOIDA/Learn-Quest?style=social)](https://github.com/DSC-JSS-NOIDA/Learn-Quest) [![Watchers](https://img.shields.io/github/watchers/DSC-JSS-NOIDA/Learn-Quest?style=social)](https://github.com/DSC-JSS-NOIDA/Learn-Quest) [![Twitter Follow](https://img.shields.io/twitter/follow/DSCJSSATEN?style=social)](https://twitter.com/DSCJSSATEN)
 
-A collection of resources categorised by tech domains, languages, expertise and much more. QuickLearn gives you a quick access to all the resources that you could need at a single place, within a click!
+A collection of resources categorised by tech domains, languages, expertise and much more. Learn-Quest gives you a quick access to all the resources that you could need at a single place, within a click!
 
 <!-- ### Links
 
@@ -68,8 +68,8 @@ A collection of resources categorised by tech domains, languages, expertise and 
 <table>
 	<tr>
 		<td>
-			<a href="https://github.com/DSC-JSS-NOIDA/QuickLearn/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=DSC-JSS-NOIDA/QuickLearn" />
+			<a href="https://github.com/DSC-JSS-NOIDA/Learn-Quest/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DSC-JSS-NOIDA/Learn-Quest" />
 </a>
 		</td>
 	</tr>
@@ -79,7 +79,7 @@ A collection of resources categorised by tech domains, languages, expertise and 
 
 ### Demo <a href="https://drive.google.com/file/d/1Z6bihDrFMUPy8j5nIqzwnqP4pl_OgPXc/view" style="text-decoration:none;">🎥</a>
 
-#### Website for this repository : <https://dsc-jss-noida.github.io/QuickLearn/>
+#### Website for this repository : <https://dsc-jss-noida.github.io/Learn-Quest/>
 
 <br>
 
@@ -90,8 +90,8 @@ A collection of resources categorised by tech domains, languages, expertise and 
 - Fork and clone the Repo by typing the following commands in the terminal
 
 ```
-$ git clone https://github.com/<your-github-username>/QuickLearn.git
-$ cd QuickLearn
+$ git clone https://github.com/<your-github-username>/Learn-Quest.git
+$ cd Learn-Quest
 ```
 
 <!--
@@ -112,8 +112,8 @@ $ cd QuickLearn
 - Fork and clone the Repo by typing the following commands in the terminal
 
 ```
-$ git clone https://github.com/DSC-JSS-NOIDA/QuickLearn.git
-$ cd QuickLearn
+$ git clone https://github.com/DSC-JSS-NOIDA/Learn-Quest.git
+$ cd Learn-Quest
 ``` -->
 
 [![fork.png](https://i.postimg.cc/dtfvSW4H/fork.png)](https://postimg.cc/sv5tMJF7)
@@ -155,7 +155,7 @@ $ git remote -v
 ``` 
 Adding Remote Repositories
 ```
-git remote add upstream https://github.com/DSC-JSS-NOIDA/QuickLearn.git
+git remote add upstream https://github.com/DSC-JSS-NOIDA/Learn-Quest.git
 ```
 Pulling from Your Remote
 ```
@@ -170,17 +170,17 @@ $ git pull upstream main
 
 #### Happy?? Star ⭐ this Repo. 🤩
 
-[![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://github.com/DSC-JSS-NOIDA/QuickLearn)
-[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](https://github.com/DSC-JSS-NOIDA/QuickLearn)
-[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](https://github.com/DSC-JSS-NOIDA/QuickLearn)
-[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](https://github.com/DSC-JSS-NOIDA/QuickLearn)
+[![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://github.com/DSC-JSS-NOIDA/Learn-Quest)
+[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](https://github.com/DSC-JSS-NOIDA/Learn-Quest)
+[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](https://github.com/DSC-JSS-NOIDA/Learn-Quest)
+[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](https://github.com/DSC-JSS-NOIDA/Learn-Quest)
 
 > Made By GDSC JSS NOIDA with ❤️
 
 <br><br>
 
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/DSC-JSS-NOIDA/QuickLearn)
-[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/DSC-JSS-NOIDA/QuickLearn)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/DSC-JSS-NOIDA/Learn-Quest)
+[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/DSC-JSS-NOIDA/Learn-Quest)
 
 > **_Need help?_** > **_Feel free to contact us @ [dscjssnoida@gmail.com](mailto:idscjssnoida@gmail.com?Subject=DSCHackFest2020)_**
 
