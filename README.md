@@ -175,7 +175,7 @@ $ git pull upstream main
 [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](https://github.com/DSC-JSS-NOIDA/Learn-Quest)
 [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](https://github.com/DSC-JSS-NOIDA/Learn-Quest)
 
-> Made By GDSC JSS NOIDA with ❤️
+> Made with ❤️ by GDSC JSS NOIDA with 
 
 <br><br>
 
