@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!--Bootstrap Icons -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+<style>
+    body{
+        width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  z-index: -2;
+  transition: 2s;
+  /* background-color: var(--primary-background); */
+  background: url('/assets/images/qlbg.png') no-repeat center center/cover; 
+    }
+</style>
+</head>
+<body>
+    
+  <!-- <div>
+    <button id="details" onclick="display()">Details</button>
+  </div> -->
+  <div id="qlbgDetails">
+
+  </div>
+  <nav class="nav p-3">
+
+    <a href="#" id="logo" class="navbar-brand  font-weight-bold">
+      LearnQuest
+    </a>
+    <a class="nav-link btn" href="./resource.html" id="navResourceBtn">Categories</a>
+    <span class="btn" onclick="dark_mode()" style="display: block; margin-left: 2px; color: #6940d3;" href="#"><i
+        id="darkSwitch2" class="fas fa-moon"></i></span>
+  </nav>
+    <div class="container mt-3" id="resourceBox">
+        <!--Beginner Resource Box-->
+        <h4 class="resource-heading">Beginner</h4>
+        <div class="row" id="beginnerResourceBox"></div>
+        <!--Intermediate Resource Box -->
+        <h4 class="resource-heading">Intermediate</h4>
+        <div class="row mt-2" id="intermediateResourceBox"></div>
+        <!--Advanced Resource Box -->
+        <h4 class="resource-heading">Advanced</h4>
+        <div class="row mt-2" id="advancedResourceBox"></div>
+        <h4 class="resource-heading"></h4>
+        <div class="row mt-2" id="projectsResourceBox"></div>
+      </div>
+
+      <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/getResource.js"></script>
+  
+  <script src="https://kit.fontawesome.com/d5f8b6c1a9.js" crossorigin="anonymous"></script> -->
+  <script src="./details.js"></script>
+</body>
+</html>

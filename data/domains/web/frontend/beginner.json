@@ -1,0 +1,22 @@
+[
+    {
+
+        "title": "Code With Harry",
+        "link": "https://youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg",
+        "type": "video"
+    }
+    ,
+    {
+        "title": "W3Schools",
+        "link": "https://www.w3schools.com/whatis/"  ,
+        "type": "docs"
+    }
+    ,
+    {
+        "title": "freecodecamp.org",
+        "link": "https://youtu.be/mU6anWqZJcc"  ,
+        "type": "video"
+    }
+  
+   
+]
