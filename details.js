@@ -1,101 +1,88 @@
-let bdata = JSON.parse(window.localStorage.getItem('bdata'));
-console.log("bdata:",bdata);
-let idata = JSON.parse(window.localStorage.getItem('idata'));
-console.log("idata:",idata);
-let adata = JSON.parse(window.localStorage.getItem('adata'));
-console.log("adata:",adata);
+const urlSearchParams = new URLSearchParams(window.location.search);
+const params = Object.fromEntries(urlSearchParams.entries());
+console.log(params)
+const domain = params.domain;
+const subDomain = params.subdomain;
 
-setTimeout(() => {
-    if (bdata != "") {
-      for (let i = 0; i < bdata.length; i++) {
-        if (bdata[i].type == "docs") {
+const beginnerResourceBox = document.getElementById('beginnerResourceBox')
+const intermediateResourceBox = document.getElementById('intermediateResourceBox')
+const advancedResourceBox = document.getElementById('advancedResourceBox')
+const projectsResourceBox = document.getElementById('projectsResourceBox')
+let beginnerData;
+let intermediateData;
+let advancedData;
+const fetchResources = async () => {
+    try {
+        // Beginner
+        const beginner = await fetch(`./data/domains/${domain}/${subDomain}/beginner.json`)
+        beginnerData = await beginner.json();
+        // Intermediate
+        const intermediate = await fetch(`./data/domains/${domain}/${subDomain}/intermediate.json`)
+        intermediateData = await intermediate.json();
+        // Advanced
+        const advanced = await fetch(`./data/domains/${domain}/${subDomain}/advanced.json`)
+        advancedData = await advanced.json();
+    }
+    catch (e) {
+        throw new Error(e);
+    }
+}
 
-          beginnerResourceBox.innerHTML += ` 
-          <div class="col-6 col-md-4">
-          <div class="card m-3" style="width: 100%">
-          <img
-          src="./assets/images/explore.jpg"
-          class="card-img-top img-sz mx-auto"
-          alt="..."
-          />
-          <div class="card-body text-center">
-          <h5 class="card-title">${bdata[i].title}</h5>
-          <a href="${bdata[i].link}" class="btn view-more-btn" target="_blank">View More</a>
-          </div>
-          </div>
-          </div>`;
-                  } else {
-                      beginnerResourceBox.innerHTML += `
-          <div class="col-6 col-md-4">
-          <div class="card m-3" style="width: 100%">
-          <img
-          src="./assets/images/content.png"
-          class="card-img-top img-sz mx-auto"
-          alt="..."
-          />
-          <div class="card-body text-center">
-          <h5 class="card-title">${bdata[i].title}</h5>
-          <a href="${bdata[i].link}" class="btn view-more-btn" target="_blank">View More</a>
-          </div>
-          </div>
-          </div>`;
-                  }
-              }
-          } else {
-              beginnerResourceBox.innerHTML += `<img
-              src="./assets/images/empty.jpg"
-              class="card-img-top img-sz mx-auto"
-              alt="..."
-            />`;
-          }
-          /* Intermediate Resource Box */
 
-          if (idata != '') {
-              for (let i = 0; i < idata.length; i++) {
-                  if (idata[i].type == 'docs') {
-                      intermediateResourceBox.innerHTML += `
-            <div class="col-6 col-md-4">
-            <div class="card m-3" style="width: 100%">
-            <img
-            src="./assets/images/explore.jpg"
+fetchResources()
+
+
+const addResources = () => {
+    /* beginner data */
+    // later we can have loader
+    if (beginnerData != "") {
+        for (let i = 0; i < beginnerData.length; i++) {
+            if (beginnerData[i].type == "docs") {
+
+                beginnerResourceBox.innerHTML += ` 
+        <div class="col-6 col-md-4">
+        <div class="card m-3" style="width: 100%">
+        <img
+        src="./assets/images/explore.jpg"
+        class="card-img-top img-sz mx-auto"
+        alt="..."
+        />
+        <div class="card-body text-center">
+        <h5 class="card-title">${beginnerData[i].title}</h5>
+        <a href="${beginnerData[i].link}" class="btn view-more-btn" target="_blank">View More</a>
+        </div>
+        </div>
+        </div>`;
+            } else {
+                beginnerResourceBox.innerHTML += `
+        <div class="col-6 col-md-4">
+        <div class="card m-3" style="width: 100%">
+        <img
+        src="./assets/images/content.png"
+        class="card-img-top img-sz mx-auto"
+        alt="..."
+        />
+        <div class="card-body text-center">
+        <h5 class="card-title">${beginnerData[i].title}</h5>
+        <a href="${beginnerData[i].link}" class="btn view-more-btn" target="_blank">View More</a>
+        </div>
+        </div>
+        </div>`;
+            }
+        }
+    } else {
+        beginnerResourceBox.innerHTML += `<img
+            src="./assets/images/empty.jpg"
             class="card-img-top img-sz mx-auto"
             alt="..."
-            />
-            <div class="card-body text-center">
-            <h5 class="card-title">${idata[i].title}</h5>
-            <a href="${idata[i].link}" class="btn view-more-btn" target="_blank">View More</a>
-            </div>
-            </div>
-            </div>`;
-                  } else {
-                      intermediateResourceBox.innerHTML += `
-          <div class="col-6 col-md-4">
-          <div class="card m-3" style="width: 100%">
-          <img
-          src="./assets/images/content.png"
-          class="card-img-top img-sz mx-auto"
-          alt="..."
-          />
-          <div class="card-body text-center">
-          <h5 class="card-title">${idata[i].title}</h5>
-          <a href="${idata[i].link}" class="btn view-more-btn" target="_blank">View More</a>
-          </div>
-          </div>
-          </div>`;
-                  }
-              }
-          } else {
-              intermediateResourceBox.innerHTML += `<img
-              src="./assets/images/empty.jpg"
-              class="card-img-top img-sz mx-auto"
-              alt="..."
-            />`;
-          }
-          /* Advanced Resource Box */
-          if (adata != '') {
-              for (let i = 0; i < adata.length; i++) {
-                  if (adata[i].type == 'docs') {
-                      advancedResourceBox.innerHTML += `
+          />`;
+    }
+    /* Intermediate Resource Box */
+
+    if (intermediateData != '') {
+        for (let i = 0; i < intermediateData.length; i++) {
+            if (intermediateData[i].type == 'docs') {
+                intermediateResourceBox.innerHTML += `
           <div class="col-6 col-md-4">
           <div class="card m-3" style="width: 100%">
           <img
@@ -104,33 +91,82 @@ setTimeout(() => {
           alt="..."
           />
           <div class="card-body text-center">
-          <h5 class="card-title">${adata[i].title}</h5>
-          <a href="${adata[i].link}" class="btn view-more-btn" target="_blank">View More</a>
+          <h5 class="card-title">${intermediateData[i].title}</h5>
+          <a href="${intermediateData[i].link}" class="btn view-more-btn" target="_blank">View More</a>
           </div>
           </div>
           </div>`;
-                  } else {
-                      advancedResourceBox.innerHTML += `
-          <div class="col-6 col-md-4">
-          <div class="card m-3" style="width: 100%">
-          <img
-          src="./assets/images/content.png"
-          class="card-img-top img-sz mx-auto"
-          alt="..."
-          />
-          <div class="card-body text-center">
-          <h5 class="card-title">${adata[i].title}</h5>
-          <a href="${adata[i].link}" class="btn view-more-btn" target="_blank">View More</a>
-          </div>
-          </div>
-          </div>`;
-                  }
-              }
-          } else {
-              advancedResourceBox.innerHTML += `<img
-              src="./assets/images/empty.jpg"
-              class="card-img-top img-sz mx-auto"
-              alt="..."
-            />`;
-          }
-      }, 300);
+            } else {
+                intermediateResourceBox.innerHTML += `
+        <div class="col-6 col-md-4">
+        <div class="card m-3" style="width: 100%">
+        <img
+        src="./assets/images/content.png"
+        class="card-img-top img-sz mx-auto"
+        alt="..."
+        />
+        <div class="card-body text-center">
+        <h5 class="card-title">${intermediateData[i].title}</h5>
+        <a href="${intermediateData[i].link}" class="btn view-more-btn" target="_blank">View More</a>
+        </div>
+        </div>
+        </div>`;
+            }
+        }
+    } else {
+        intermediateResourceBox.innerHTML += `<img
+            src="./assets/images/empty.jpg"
+            class="card-img-top img-sz mx-auto"
+            alt="..."
+          />`;
+    }
+    /* Advanced Resource Box */
+    if (advancedData != '') {
+        for (let i = 0; i < advancedData.length; i++) {
+            if (advancedData[i].type == 'docs') {
+                advancedResourceBox.innerHTML += `
+        <div class="col-6 col-md-4">
+        <div class="card m-3" style="width: 100%">
+        <img
+        src="./assets/images/explore.jpg"
+        class="card-img-top img-sz mx-auto"
+        alt="..."
+        />
+        <div class="card-body text-center">
+        <h5 class="card-title">${advancedData[i].title}</h5>
+        <a href="${advancedData[i].link}" class="btn view-more-btn" target="_blank">View More</a>
+        </div>
+        </div>
+        </div>`;
+            } else {
+                advancedResourceBox.innerHTML += `
+        <div class="col-6 col-md-4">
+        <div class="card m-3" style="width: 100%">
+        <img
+        src="./assets/images/content.png"
+        class="card-img-top img-sz mx-auto"
+        alt="..."
+        />
+        <div class="card-body text-center">
+        <h5 class="card-title">${advancedData[i].title}</h5>
+        <a href="${advancedData[i].link}" class="btn view-more-btn" target="_blank">View More</a>
+        </div>
+        </div>
+        </div>`;
+            }
+        }
+    } else {
+        advancedResourceBox.innerHTML += `<img
+            src="./assets/images/empty.jpg"
+            class="card-img-top img-sz mx-auto"
+            alt="..."
+          />`;
+    }
+}
+
+
+setTimeout(() => {
+    addResources();
+}, 300)
+
+
