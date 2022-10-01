@@ -70,11 +70,15 @@ a:hover {
   border: 2px solid var(--primary-title);
   color: white;
   transition: 0.1s linear all;
+  box-shadow: 2px 5px 6px rgb(149, 134, 134);
+  transition-property: margin-right;
+
 }
 #navResourceBtn:hover {
   border: 2px solid var(--primary-title);
   color: var(--primary-title);
   background-color: white;
+  
 }
 /* About Us Section */
 #mainHeading {
@@ -97,8 +101,9 @@ a:hover {
   border: 3px solid var(--primary-title);
   color: white;
   font-size: 1.3rem;
-  transition: 0.1s linear all;
+  transition: 0.2s linear all;
   width: 50%;
+  box-shadow: 2.2px 5px 6px rgb(149, 134, 134);
 }
 #exploreBtn:hover {
   border: 3px solid var(--primary-title);
@@ -136,6 +141,7 @@ a:hover {
   font-size: 1.3rem;
   transition: 0.1s linear all;
   width: 70%;
+  box-shadow: 2.2px 5px 6px rgb(149, 134, 134);
 }
 #contributionBtn:hover {
   border: 3px solid var(--primary-title);
@@ -255,8 +261,9 @@ a:hover {
   z-index: 200;
   -webkit-text-stroke: 0.05vw white;
   border: 3px solid black;
-  transition: width s height 4s;
+  transition: width s height 5s;
   transition-delay: 0.5s;
+  
   /* transition: width 2s, height 4s;
   transition-delay: 1s; */
   /* animation-name: sample;
@@ -586,7 +593,8 @@ footer {
   background-color: #045de9;
   background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
   transition: width 0.5s, height 0.5s;
-  z-index: -1;
+  /* transition: margin-left  2s, color 1s; */
+  z-index: -2;
 }
 
 .mybutton:hover span {
@@ -596,7 +604,7 @@ footer {
 
 #forkImg {
   width: 50%;
-  margin-left: 10%;
+  margin-left: 20%;
 }
 
 #footHeading {
