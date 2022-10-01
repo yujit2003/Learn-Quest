@@ -174,11 +174,12 @@ a:hover {
 }
 
 .card {
-  transition: all 0.2s ease-in;
+  transition: all 0.3s ease-in;
   padding: 1.1rem;
   background-color: #96a6ce5b;
   border-radius: 1.25rem;
   box-shadow: 5px 5px 10px #095557;
+  cursor: pointer;
 }
 
 /* css for image inside card */
@@ -614,7 +615,7 @@ footer {
   margin: 10px;
   display: inline-block;
   text-decoration: none;
-  color: white;
+  color: black;
   letter-spacing: 2px;
   text-transform: uppercase;
   transition: 0.5s;
