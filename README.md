@@ -116,13 +116,13 @@ $ git clone https://github.com/DSC-JSS-NOIDA/Learn-Quest.git
 $ cd Learn-Quest
 ``` -->
 
-[![fork.png](https://i.postimg.cc/dtfvSW4H/fork.png)](https://postimg.cc/sv5tMJF7)
+[![fork.png](https://i.postimg.cc/kX93gtJJ/fork-repo.jpg)](https://postimg.cc/sv5tMJF7)
 
 <hr>
 
-[![clone.png](https://i.postimg.cc/XJqdbfZY/clone.png)](https://postimg.cc/47CmvhbD)<hr>
+[![clone.png](https://i.postimg.cc/xT2jGMqb/clonerepo.jpg)](https://postimg.cc/47CmvhbD)<hr>
 
-[![clone-git-Bash.png](https://i.postimg.cc/ncdF20Qr/clone-git-Bash.png)](https://postimg.cc/gnZbkysb)
+[![clone-git-Bash.png](https://i.postimg.cc/pLgLQ6cJ/clone.jpg)](https://postimg.cc/gnZbkysb)
 
 <hr>
 
