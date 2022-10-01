@@ -272,7 +272,7 @@ a:hover {
 /* #resource {
   background: var(--primary-contact-background);
 } */
-/* sidebar */
+
 
 #contributeBtn {
   border: none;
@@ -298,7 +298,7 @@ a:hover {
   color: var(--primary-label);
   padding: 8px;
 }
-#sidebar {
+#resourceSection {
   /* z-index: 5; */
   /* background: var(--primary-background); */
   /* width: fit-content; */
