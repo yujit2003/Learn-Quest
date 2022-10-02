@@ -12,7 +12,7 @@
 
 [![Issues](https://img.shields.io/github/issues/DSC-JSS-NOIDA/Learn-Quest)](https://github.com/DSC-JSS-NOIDA/Learn-Quest/issues)
 [![PRs](https://img.shields.io/github/issues-pr/DSC-JSS-NOIDA/Learn-Quest)](https://github.com/DSC-JSS-NOIDA/Learn-Quest/pulls)
-[![Maintenance](https://img.shields.io/maintenance/yes/2021?color=green&logo=github)](https://github.com/DSC-JSS-NOIDA/)
+[![Maintenance](https://img.shields.io/maintenance/yes/2022?color=green&logo=github)](https://github.com/DSC-JSS-NOIDA/)
 [![Forks](https://img.shields.io/github/forks/DSC-JSS-NOIDA/Learn-Quest?style=social)](https://github.com/DSC-JSS-NOIDA/Learn-Quest) [![Stars](https://img.shields.io/github/stars/DSC-JSS-NOIDA/Learn-Quest?style=social)](https://github.com/DSC-JSS-NOIDA/Learn-Quest) [![Watchers](https://img.shields.io/github/watchers/DSC-JSS-NOIDA/Learn-Quest?style=social)](https://github.com/DSC-JSS-NOIDA/Learn-Quest) [![Twitter Follow](https://img.shields.io/twitter/follow/DSCJSSATEN?style=social)](https://twitter.com/DSCJSSATEN)
 
 A collection of resources categorised by tech domains, languages, expertise and much more. LearnQuest gives you a quick access to all the resources that you could need at a single place, within a click!
@@ -79,7 +79,7 @@ A collection of resources categorised by tech domains, languages, expertise and 
 
 ### Demo <a href="https://drive.google.com/file/d/1Z6bihDrFMUPy8j5nIqzwnqP4pl_OgPXc/view" style="text-decoration:none;">🎥</a>
 
-#### Website for this repository : <https://dsc-jss-noida.github.io/Learn-Quest/>
+#### Website for this repository : <https://learn-quest.netlify.app/>
 
 <br>
 
@@ -116,13 +116,13 @@ $ git clone https://github.com/DSC-JSS-NOIDA/Learn-Quest.git
 $ cd Learn-Quest
 ``` -->
 
-[![fork.png](https://i.postimg.cc/dtfvSW4H/fork.png)](https://postimg.cc/sv5tMJF7)
+[![fork.png](https://i.postimg.cc/kX93gtJJ/fork-repo.jpg)](https://postimg.cc/sv5tMJF7)
 
 <hr>
 
-[![clone.png](https://i.postimg.cc/XJqdbfZY/clone.png)](https://postimg.cc/47CmvhbD)<hr>
+[![clone.png](https://i.postimg.cc/xT2jGMqb/clonerepo.jpg)](https://postimg.cc/47CmvhbD)<hr>
 
-[![clone-git-Bash.png](https://i.postimg.cc/ncdF20Qr/clone-git-Bash.png)](https://postimg.cc/gnZbkysb)
+[![clone-git-Bash.png](https://i.postimg.cc/pLgLQ6cJ/clone.jpg)](https://postimg.cc/gnZbkysb)
 
 <hr>
 
