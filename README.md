@@ -12,7 +12,7 @@
 
 [![Issues](https://img.shields.io/github/issues/DSC-JSS-NOIDA/Learn-Quest)](https://github.com/DSC-JSS-NOIDA/Learn-Quest/issues)
 [![PRs](https://img.shields.io/github/issues-pr/DSC-JSS-NOIDA/Learn-Quest)](https://github.com/DSC-JSS-NOIDA/Learn-Quest/pulls)
-[![Maintenance](https://img.shields.io/maintenance/yes/2021?color=green&logo=github)](https://github.com/DSC-JSS-NOIDA/)
+[![Maintenance](https://img.shields.io/maintenance/yes/2022?color=green&logo=github)](https://github.com/DSC-JSS-NOIDA/)
 [![Forks](https://img.shields.io/github/forks/DSC-JSS-NOIDA/Learn-Quest?style=social)](https://github.com/DSC-JSS-NOIDA/Learn-Quest) [![Stars](https://img.shields.io/github/stars/DSC-JSS-NOIDA/Learn-Quest?style=social)](https://github.com/DSC-JSS-NOIDA/Learn-Quest) [![Watchers](https://img.shields.io/github/watchers/DSC-JSS-NOIDA/Learn-Quest?style=social)](https://github.com/DSC-JSS-NOIDA/Learn-Quest) [![Twitter Follow](https://img.shields.io/twitter/follow/DSCJSSATEN?style=social)](https://twitter.com/DSCJSSATEN)
 
 A collection of resources categorised by tech domains, languages, expertise and much more. LearnQuest gives you a quick access to all the resources that you could need at a single place, within a click!
