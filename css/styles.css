@@ -73,7 +73,9 @@ a:hover {
   border: 2px solid var(--primary-title);
   color: white;
   transition: 0.1s linear all;
-  box-shadow: 2px 5px 6px rgb(149, 134, 134);
+  /* box-shadow: 2px 5px 6px rgb(149, 134, 134); */
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   transition-property: margin-right;
 
 }
@@ -87,10 +89,16 @@ a:hover {
 
 /* About Us Section */
 #mainHeading {
+  
   font-family: "Poppins", serif;
   font-weight: bolder;
   font-size: 3rem;
   color: var(--primary-title);
+}
+.h1{
+  position: absolute;
+  top: 12rem;
+  width: 40rem;
 }
 
 #mainParagraph {
@@ -104,13 +112,16 @@ a:hover {
   margin-left: 10%;
 } */
 #exploreBtn {
+  position: relative;
+  top: 17rem;
   background-color: var(--primary-title);
   border: 3px solid var(--primary-title);
   color: white;
   font-size: 1.3rem;
   transition: 0.2s linear all;
   width: 50%;
-  box-shadow: 2.2px 5px 6px rgb(149, 134, 134);
+  /* box-shadow: 2.2px 5px 6px rgb(149, 134, 134); */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 #exploreBtn:hover {
@@ -626,6 +637,7 @@ footer {
   margin-left: 2.7%;
   font-size: 1.1em;
   font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .mybutton:hover {
