@@ -157,6 +157,7 @@ a:hover {
   background-color: #96a6ce5b;
   border-radius: 1.25rem;
   box-shadow: 5px 5px 10px #095557;
+  width: 18rem;
 }
 /* css for image inside card */
 .card-img-top {
@@ -688,5 +689,20 @@ footer {
 @media screen and (max-width: 1200px) {
   .card-title h5 {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1360px)
+{
+  .card {
+    width: 15rem;
+  }
+  
+}
+
+@media (max-width:1160px)
+{
+  .feature-image{
+    display: none;
   }
 }
