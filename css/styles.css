@@ -692,6 +692,10 @@ footer {
   background: var(--primary-title);
 }
 
+.feature-image {
+  margin:99px;
+}
+
 /* Dark Mode */
 .dark {
   background-color: black;
