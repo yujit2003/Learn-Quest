@@ -85,6 +85,9 @@ a:hover {
   border: 2px solid var(--primary-title);
   color: var(--primary-title);
   background-color: white;
+   transition: 1s;
+  box-shadow: 12px 18px 15px black;
+  width: 18%;
   
 }
 
@@ -129,6 +132,9 @@ a:hover {
   border: 3px solid var(--primary-title);
   color: var(--primary-title);
   background-color: white;
+  transition: 1s;
+  box-shadow: 12px 18px 15px black;
+  width: 55%;
 }
 
 #aboutUs {
@@ -173,6 +179,9 @@ a:hover {
   border: 3px solid var(--primary-title);
   color: var(--primary-title);
   background-color: white;
+  transition: 1s;
+  box-shadow: 12px 18px 15px black;
+  width: 75%;
 }
 
 /* Feature Section */
